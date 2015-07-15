@@ -35,7 +35,8 @@ namespace WebApplication2.Controllers
             ISecureDataFormat<AuthenticationTicket> accessTokenFormat)
         {
             UserManager = userManager;
-            AccessTokenFormat = accessTokenFormat;
+            AccessTokenFormat = accessTokenFormat;//////
+            AccessTokenFormat = accessTokenFormat;//////
         }
 
         public ApplicationUserManager UserManager
