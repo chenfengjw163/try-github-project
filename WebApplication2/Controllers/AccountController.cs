@@ -28,6 +28,7 @@ namespace WebApplication2.Controllers
 
         public AccountController()
         {
+
         }
 
         public AccountController(ApplicationUserManager userManager,
