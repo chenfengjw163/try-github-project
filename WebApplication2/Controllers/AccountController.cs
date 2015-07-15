@@ -35,7 +35,6 @@ namespace WebApplication2.Controllers
         {
             UserManager = userManager;
             AccessTokenFormat = accessTokenFormat;
-            AccessTokenFormat = accessTokenFormat;
         }
 
         public ApplicationUserManager UserManager
