@@ -10,7 +10,7 @@ using System.Web.Http.ModelBinding;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
+using Microsoft.Owin.Security; 
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using WebApplication2.Models;
@@ -28,7 +28,7 @@ namespace WebApplication2.Controllers
 
         public AccountController()
         {
-
+            Console.WriteLine("这是我的修改");
         }
 
         public AccountController(ApplicationUserManager userManager,
