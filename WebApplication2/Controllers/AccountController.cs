@@ -28,7 +28,7 @@ namespace WebApplication2.Controllers
 
         public AccountController()
         {
-
+            Console.WriteLine("这是我的修改");
         }
 
         public AccountController(ApplicationUserManager userManager,
